@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+   <style>
+        iframe{
+            margin: 40px;
+            width: 93%;
+        }
+        label,input{
+            margin: 7px;
+        }
+        form{
+            margin: auto;
+            width: 30%;
+        }
+        fieldset{
+            text-align: center;
+            padding: 10px;
+        }
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Receitas para fazer em casa! </h1>
+        <p>Venha conhecer 5 receitas para fazer em casas de maneira fácil! </p>
+        <nav>
+            <a href="home.html" > Home </a>
+            <a href="contato.html"> Contato </a>
+            <a href="sobremim.html">Sobre Mim</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Para saber mais...</h1>
+        <p>Se quiser ir à nossa loja física , a localização estará logo abaixo:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d469451.2624407436!2d-47.2124914958173!3d-23.185232963880118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf2694267ef0e1%3A0x553679789c308f57!2sPizza%20Mila!5e0!3m2!1spt-BR!2sbr!4v1686653116825!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Para receber propagandas em seu email, cadastre-se pelo formulário abaixo: </p>
+        <form action="post">
+            <fieldset>
+                <h2>Formulário:</h2>
+
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="inome"><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" name="telefone" id="itel"><br>
+
+                <label for="sexo">Gênero: </label>
+                <input type="radio" name="sexo" id="isexoM">
+                <label for="isexoM">Masculino</label>
+                <input type="radio" name="sexo" id="isexoF">
+                <label for="isexoF">Feminino</label>
+                <br>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail"><br>
+
+                <input type="submit" style="padding: 5px;">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Feito por Mateus Modesto</p>
+    </footer>
+</body>
+</html>
